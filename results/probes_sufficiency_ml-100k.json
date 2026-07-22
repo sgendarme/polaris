@@ -1,0 +1,270 @@
+{
+  "dataset": "ML-100K",
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "topk": 10,
+  "probe": "sufficiency",
+  "coverage": {
+    "mean": 1.0,
+    "std": 0.0
+  },
+  "recovery": {
+    "named": {
+      "mean": 0.7233975094658265,
+      "std": 0.03384445534726809
+    },
+    "rnd": {
+      "mean": 0.4334699632226652,
+      "std": 0.0734441052128095
+    }
+  },
+  "sufficiency_excess": {
+    "mean": 0.2899275462431613,
+    "std": 0.07793780208238262,
+    "wilcoxon_p_2sided": 8.844915021211902e-05,
+    "wilcoxon_p_1sided": 4.422457510605951e-05,
+    "n": 20
+  },
+  "per_seed": [
+    {
+      "coverage": 1.0,
+      "surfaced": 610,
+      "covered": 610,
+      "users_with_expl": 61,
+      "n_eval": 61,
+      "n_explained_pairs": 610,
+      "n_groups": 8,
+      "named_rec": 0.7459016393442623,
+      "rnd_rec": 0.47540983606557374
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 640,
+      "covered": 640,
+      "users_with_expl": 64,
+      "n_eval": 64,
+      "n_explained_pairs": 640,
+      "n_groups": 7,
+      "named_rec": 0.7203125,
+      "rnd_rec": 0.4953125
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 640,
+      "covered": 640,
+      "users_with_expl": 64,
+      "n_eval": 64,
+      "n_explained_pairs": 640,
+      "n_groups": 8,
+      "named_rec": 0.7125,
+      "rnd_rec": 0.40625
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 630,
+      "covered": 630,
+      "users_with_expl": 63,
+      "n_eval": 63,
+      "n_explained_pairs": 630,
+      "n_groups": 8,
+      "named_rec": 0.734920634920635,
+      "rnd_rec": 0.3746031746031746
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 610,
+      "covered": 610,
+      "users_with_expl": 61,
+      "n_eval": 61,
+      "n_explained_pairs": 610,
+      "n_groups": 8,
+      "named_rec": 0.760655737704918,
+      "rnd_rec": 0.45901639344262296
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 640,
+      "covered": 640,
+      "users_with_expl": 64,
+      "n_eval": 64,
+      "n_explained_pairs": 640,
+      "n_groups": 8,
+      "named_rec": 0.7171875,
+      "rnd_rec": 0.396875
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 630,
+      "covered": 630,
+      "users_with_expl": 63,
+      "n_eval": 63,
+      "n_explained_pairs": 630,
+      "n_groups": 8,
+      "named_rec": 0.6936507936507936,
+      "rnd_rec": 0.3746031746031746
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 630,
+      "covered": 630,
+      "users_with_expl": 63,
+      "n_eval": 63,
+      "n_explained_pairs": 630,
+      "n_groups": 8,
+      "named_rec": 0.765079365079365,
+      "rnd_rec": 0.5031746031746032
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 610,
+      "covered": 610,
+      "users_with_expl": 61,
+      "n_eval": 61,
+      "n_explained_pairs": 610,
+      "n_groups": 8,
+      "named_rec": 0.6754098360655738,
+      "rnd_rec": 0.36885245901639346
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 630,
+      "covered": 630,
+      "users_with_expl": 63,
+      "n_eval": 63,
+      "n_explained_pairs": 630,
+      "n_groups": 8,
+      "named_rec": 0.707936507936508,
+      "rnd_rec": 0.526984126984127
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 630,
+      "covered": 630,
+      "users_with_expl": 63,
+      "n_eval": 63,
+      "n_explained_pairs": 630,
+      "n_groups": 8,
+      "named_rec": 0.6571428571428571,
+      "rnd_rec": 0.45714285714285713
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 620,
+      "covered": 620,
+      "users_with_expl": 62,
+      "n_eval": 62,
+      "n_explained_pairs": 620,
+      "n_groups": 8,
+      "named_rec": 0.682258064516129,
+      "rnd_rec": 0.4661290322580645
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 640,
+      "covered": 640,
+      "users_with_expl": 64,
+      "n_eval": 64,
+      "n_explained_pairs": 640,
+      "n_groups": 8,
+      "named_rec": 0.71875,
+      "rnd_rec": 0.4125
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 620,
+      "covered": 620,
+      "users_with_expl": 62,
+      "n_eval": 62,
+      "n_explained_pairs": 620,
+      "n_groups": 8,
+      "named_rec": 0.7225806451612903,
+      "rnd_rec": 0.25483870967741934
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 630,
+      "covered": 630,
+      "users_with_expl": 63,
+      "n_eval": 63,
+      "n_explained_pairs": 630,
+      "n_groups": 8,
+      "named_rec": 0.7619047619047619,
+      "rnd_rec": 0.49523809523809526
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 650,
+      "covered": 650,
+      "users_with_expl": 65,
+      "n_eval": 65,
+      "n_explained_pairs": 650,
+      "n_groups": 8,
+      "named_rec": 0.7861538461538462,
+      "rnd_rec": 0.3353846153846154
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 620,
+      "covered": 620,
+      "users_with_expl": 62,
+      "n_eval": 62,
+      "n_explained_pairs": 620,
+      "n_groups": 8,
+      "named_rec": 0.7580645161290323,
+      "rnd_rec": 0.47096774193548385
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 620,
+      "covered": 620,
+      "users_with_expl": 62,
+      "n_eval": 62,
+      "n_explained_pairs": 620,
+      "n_groups": 8,
+      "named_rec": 0.7,
+      "rnd_rec": 0.5225806451612903
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 610,
+      "covered": 610,
+      "users_with_expl": 61,
+      "n_eval": 61,
+      "n_explained_pairs": 610,
+      "n_groups": 8,
+      "named_rec": 0.7475409836065574,
+      "rnd_rec": 0.5163934426229508
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 630,
+      "covered": 630,
+      "users_with_expl": 63,
+      "n_eval": 63,
+      "n_explained_pairs": 630,
+      "n_groups": 8,
+      "named_rec": 0.7,
+      "rnd_rec": 0.35714285714285715
+    }
+  ]
+}

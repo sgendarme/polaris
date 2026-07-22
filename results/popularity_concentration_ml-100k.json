@@ -1,0 +1,61 @@
+{
+  "concentration_popular": {
+    "CLIRE": {
+      "share_top10_recs_in_top5pct": 0.9854791034797727,
+      "share_top10_hits_in_top5pct": 0.9877092883764214,
+      "total_hits": 10083,
+      "tail_hits": 136,
+      "tail_hit_share": 0.013488049191708817
+    },
+    "FeatureKNN": {
+      "share_top10_recs_in_top5pct": 1.0,
+      "share_top10_hits_in_top5pct": 1.0,
+      "total_hits": 9608,
+      "tail_hits": 0,
+      "tail_hit_share": 0.0
+    }
+  },
+  "concentration_random": {
+    "CLIRE": {
+      "share_top10_recs_in_top5pct": 0.9853356251016964,
+      "share_top10_hits_in_top5pct": 0.9931698899243718,
+      "total_hits": 4493,
+      "tail_hits": 45,
+      "tail_hit_share": 0.010015579790785666
+    },
+    "FeatureKNN": {
+      "share_top10_recs_in_top5pct": 0.9983124421602326,
+      "share_top10_hits_in_top5pct": 0.9983808577784066,
+      "total_hits": 4965,
+      "tail_hits": 16,
+      "tail_hit_share": 0.0032225579053373615
+    }
+  },
+  "alpha_sweep_random": {
+    "0.0": {
+      "ndcg@10": 0.4228717495481158,
+      "f1": 0.24216882551305513,
+      "featureknn_ndcg@10": 0.4240674654537343
+    },
+    "0.1": {
+      "ndcg@10": 0.4221411900081457,
+      "f1": 0.24166495399851112,
+      "featureknn_ndcg@10": 0.4240674654537343
+    },
+    "0.2": {
+      "ndcg@10": 0.4167109266268506,
+      "f1": 0.24122401430708457,
+      "featureknn_ndcg@10": 0.4240674654537343
+    },
+    "0.3": {
+      "ndcg@10": 0.40687092939728203,
+      "f1": 0.24037680087934551,
+      "featureknn_ndcg@10": 0.4240674654537343
+    },
+    "0.5": {
+      "ndcg@10": 0.3909688132140562,
+      "f1": 0.23825552106806996,
+      "featureknn_ndcg@10": 0.4240674654537343
+    }
+  }
+}

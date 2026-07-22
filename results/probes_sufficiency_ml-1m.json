@@ -1,0 +1,270 @@
+{
+  "dataset": "ML-1M",
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "topk": 10,
+  "probe": "sufficiency",
+  "coverage": {
+    "mean": 1.0,
+    "std": 0.0
+  },
+  "recovery": {
+    "named": {
+      "mean": 0.7827648654987761,
+      "std": 0.01200941458404418
+    },
+    "rnd": {
+      "mean": 0.7643937308954425,
+      "std": 0.02620488228269092
+    }
+  },
+  "sufficiency_excess": {
+    "mean": 0.01837113460333366,
+    "std": 0.02541324883925366,
+    "wilcoxon_p_2sided": 0.0072956085205078125,
+    "wilcoxon_p_1sided": 0.0036478042602539062,
+    "n": 20
+  },
+  "per_seed": [
+    {
+      "coverage": 1.0,
+      "surfaced": 3140,
+      "covered": 3140,
+      "users_with_expl": 314,
+      "n_eval": 314,
+      "n_explained_pairs": 3140,
+      "n_groups": 18,
+      "named_rec": 0.7828025477707007,
+      "rnd_rec": 0.7665605095541401
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 3190,
+      "covered": 3190,
+      "users_with_expl": 319,
+      "n_eval": 319,
+      "n_explained_pairs": 3190,
+      "n_groups": 18,
+      "named_rec": 0.777742946708464,
+      "rnd_rec": 0.7677115987460815
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 3120,
+      "covered": 3120,
+      "users_with_expl": 312,
+      "n_eval": 312,
+      "n_explained_pairs": 3120,
+      "n_groups": 18,
+      "named_rec": 0.7551282051282051,
+      "rnd_rec": 0.7496794871794872
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 3080,
+      "covered": 3080,
+      "users_with_expl": 308,
+      "n_eval": 308,
+      "n_explained_pairs": 3080,
+      "n_groups": 18,
+      "named_rec": 0.7827922077922078,
+      "rnd_rec": 0.749025974025974
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 3100,
+      "covered": 3100,
+      "users_with_expl": 310,
+      "n_eval": 310,
+      "n_explained_pairs": 3100,
+      "n_groups": 18,
+      "named_rec": 0.8006451612903226,
+      "rnd_rec": 0.7596774193548387
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 3070,
+      "covered": 3070,
+      "users_with_expl": 307,
+      "n_eval": 307,
+      "n_explained_pairs": 3070,
+      "n_groups": 18,
+      "named_rec": 0.7729641693811075,
+      "rnd_rec": 0.7104234527687296
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 3070,
+      "covered": 3070,
+      "users_with_expl": 307,
+      "n_eval": 307,
+      "n_explained_pairs": 3070,
+      "n_groups": 18,
+      "named_rec": 0.7925081433224755,
+      "rnd_rec": 0.8068403908794788
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 3060,
+      "covered": 3060,
+      "users_with_expl": 306,
+      "n_eval": 306,
+      "n_explained_pairs": 3060,
+      "n_groups": 18,
+      "named_rec": 0.7660130718954249,
+      "rnd_rec": 0.7245098039215686
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 3110,
+      "covered": 3110,
+      "users_with_expl": 311,
+      "n_eval": 311,
+      "n_explained_pairs": 3110,
+      "n_groups": 18,
+      "named_rec": 0.7736334405144695,
+      "rnd_rec": 0.792604501607717
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 3090,
+      "covered": 3090,
+      "users_with_expl": 309,
+      "n_eval": 309,
+      "n_explained_pairs": 3090,
+      "n_groups": 18,
+      "named_rec": 0.7886731391585761,
+      "rnd_rec": 0.7540453074433657
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 3090,
+      "covered": 3090,
+      "users_with_expl": 309,
+      "n_eval": 309,
+      "n_explained_pairs": 3090,
+      "n_groups": 18,
+      "named_rec": 0.7728155339805826,
+      "rnd_rec": 0.7378640776699029
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 3100,
+      "covered": 3100,
+      "users_with_expl": 310,
+      "n_eval": 310,
+      "n_explained_pairs": 3100,
+      "n_groups": 18,
+      "named_rec": 0.775483870967742,
+      "rnd_rec": 0.7670967741935484
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 3160,
+      "covered": 3160,
+      "users_with_expl": 316,
+      "n_eval": 316,
+      "n_explained_pairs": 3160,
+      "n_groups": 18,
+      "named_rec": 0.7813291139240506,
+      "rnd_rec": 0.7958860759493671
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 3070,
+      "covered": 3070,
+      "users_with_expl": 307,
+      "n_eval": 307,
+      "n_explained_pairs": 3070,
+      "n_groups": 18,
+      "named_rec": 0.7931596091205212,
+      "rnd_rec": 0.7478827361563518
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 3100,
+      "covered": 3100,
+      "users_with_expl": 310,
+      "n_eval": 310,
+      "n_explained_pairs": 3100,
+      "n_groups": 18,
+      "named_rec": 0.805483870967742,
+      "rnd_rec": 0.7732258064516129
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 3050,
+      "covered": 3050,
+      "users_with_expl": 305,
+      "n_eval": 305,
+      "n_explained_pairs": 3050,
+      "n_groups": 18,
+      "named_rec": 0.7914754098360656,
+      "rnd_rec": 0.779672131147541
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 3080,
+      "covered": 3080,
+      "users_with_expl": 308,
+      "n_eval": 308,
+      "n_explained_pairs": 3080,
+      "n_groups": 18,
+      "named_rec": 0.7883116883116883,
+      "rnd_rec": 0.7974025974025974
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 3080,
+      "covered": 3080,
+      "users_with_expl": 308,
+      "n_eval": 308,
+      "n_explained_pairs": 3080,
+      "n_groups": 18,
+      "named_rec": 0.7834415584415585,
+      "rnd_rec": 0.7512987012987012
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 3090,
+      "covered": 3090,
+      "users_with_expl": 309,
+      "n_eval": 309,
+      "n_explained_pairs": 3090,
+      "n_groups": 18,
+      "named_rec": 0.7770226537216829,
+      "rnd_rec": 0.8048543689320389
+    },
+    {
+      "coverage": 1.0,
+      "surfaced": 3100,
+      "covered": 3100,
+      "users_with_expl": 310,
+      "n_eval": 310,
+      "n_explained_pairs": 3100,
+      "n_groups": 18,
+      "named_rec": 0.7938709677419354,
+      "rnd_rec": 0.7516129032258064
+    }
+  ]
+}

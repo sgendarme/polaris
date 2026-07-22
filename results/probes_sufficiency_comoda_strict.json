@@ -1,0 +1,270 @@
+{
+  "dataset": "LDOS(demo)",
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "topk": 10,
+  "probe": "sufficiency",
+  "coverage": {
+    "mean": 0.8219999999999998,
+    "std": 0.009090191359227185
+  },
+  "recovery": {
+    "named": {
+      "mean": 0.5993782603129733,
+      "std": 0.04373048266200126
+    },
+    "rnd": {
+      "mean": 0.18016213474661497,
+      "std": 0.14120967682338342
+    }
+  },
+  "sufficiency_excess": {
+    "mean": 0.4192161255663581,
+    "std": 0.1440276449880447,
+    "wilcoxon_p_2sided": 8.832385863081276e-05,
+    "wilcoxon_p_1sided": 4.416192931540638e-05,
+    "n": 20
+  },
+  "per_seed": [
+    {
+      "coverage": 0.825,
+      "surfaced": 200,
+      "covered": 165,
+      "users_with_expl": 20,
+      "n_eval": 20,
+      "n_explained_pairs": 165,
+      "n_groups": 2,
+      "named_rec": 0.7151515151515152,
+      "rnd_rec": 0.0
+    },
+    {
+      "coverage": 0.82,
+      "surfaced": 200,
+      "covered": 164,
+      "users_with_expl": 20,
+      "n_eval": 20,
+      "n_explained_pairs": 164,
+      "n_groups": 2,
+      "named_rec": 0.5853658536585366,
+      "rnd_rec": 0.18292682926829268
+    },
+    {
+      "coverage": 0.82,
+      "surfaced": 200,
+      "covered": 164,
+      "users_with_expl": 20,
+      "n_eval": 20,
+      "n_explained_pairs": 164,
+      "n_groups": 2,
+      "named_rec": 0.5853658536585366,
+      "rnd_rec": 0.07926829268292683
+    },
+    {
+      "coverage": 0.82,
+      "surfaced": 200,
+      "covered": 164,
+      "users_with_expl": 20,
+      "n_eval": 20,
+      "n_explained_pairs": 164,
+      "n_groups": 2,
+      "named_rec": 0.5853658536585366,
+      "rnd_rec": 0.3048780487804878
+    },
+    {
+      "coverage": 0.82,
+      "surfaced": 200,
+      "covered": 164,
+      "users_with_expl": 20,
+      "n_eval": 20,
+      "n_explained_pairs": 164,
+      "n_groups": 2,
+      "named_rec": 0.5853658536585366,
+      "rnd_rec": 0.0975609756097561
+    },
+    {
+      "coverage": 0.86,
+      "surfaced": 200,
+      "covered": 172,
+      "users_with_expl": 20,
+      "n_eval": 20,
+      "n_explained_pairs": 172,
+      "n_groups": 2,
+      "named_rec": 0.7383720930232558,
+      "rnd_rec": 0.4011627906976744
+    },
+    {
+      "coverage": 0.82,
+      "surfaced": 200,
+      "covered": 164,
+      "users_with_expl": 20,
+      "n_eval": 20,
+      "n_explained_pairs": 164,
+      "n_groups": 2,
+      "named_rec": 0.5853658536585366,
+      "rnd_rec": 0.24390243902439024
+    },
+    {
+      "coverage": 0.815,
+      "surfaced": 200,
+      "covered": 163,
+      "users_with_expl": 20,
+      "n_eval": 20,
+      "n_explained_pairs": 163,
+      "n_groups": 2,
+      "named_rec": 0.5828220858895705,
+      "rnd_rec": 0.1411042944785276
+    },
+    {
+      "coverage": 0.82,
+      "surfaced": 200,
+      "covered": 164,
+      "users_with_expl": 20,
+      "n_eval": 20,
+      "n_explained_pairs": 164,
+      "n_groups": 2,
+      "named_rec": 0.5853658536585366,
+      "rnd_rec": 0.2865853658536585
+    },
+    {
+      "coverage": 0.82,
+      "surfaced": 200,
+      "covered": 164,
+      "users_with_expl": 20,
+      "n_eval": 20,
+      "n_explained_pairs": 164,
+      "n_groups": 2,
+      "named_rec": 0.5853658536585366,
+      "rnd_rec": 0.12195121951219512
+    },
+    {
+      "coverage": 0.82,
+      "surfaced": 200,
+      "covered": 164,
+      "users_with_expl": 20,
+      "n_eval": 20,
+      "n_explained_pairs": 164,
+      "n_groups": 2,
+      "named_rec": 0.5853658536585366,
+      "rnd_rec": 0.012195121951219513
+    },
+    {
+      "coverage": 0.82,
+      "surfaced": 200,
+      "covered": 164,
+      "users_with_expl": 20,
+      "n_eval": 20,
+      "n_explained_pairs": 164,
+      "n_groups": 2,
+      "named_rec": 0.5853658536585366,
+      "rnd_rec": 0.0
+    },
+    {
+      "coverage": 0.82,
+      "surfaced": 200,
+      "covered": 164,
+      "users_with_expl": 20,
+      "n_eval": 20,
+      "n_explained_pairs": 164,
+      "n_groups": 2,
+      "named_rec": 0.5853658536585366,
+      "rnd_rec": 0.006097560975609756
+    },
+    {
+      "coverage": 0.82,
+      "surfaced": 200,
+      "covered": 164,
+      "users_with_expl": 20,
+      "n_eval": 20,
+      "n_explained_pairs": 164,
+      "n_groups": 2,
+      "named_rec": 0.5853658536585366,
+      "rnd_rec": 0.21341463414634146
+    },
+    {
+      "coverage": 0.82,
+      "surfaced": 200,
+      "covered": 164,
+      "users_with_expl": 20,
+      "n_eval": 20,
+      "n_explained_pairs": 164,
+      "n_groups": 2,
+      "named_rec": 0.5853658536585366,
+      "rnd_rec": 0.12195121951219512
+    },
+    {
+      "coverage": 0.82,
+      "surfaced": 200,
+      "covered": 164,
+      "users_with_expl": 20,
+      "n_eval": 20,
+      "n_explained_pairs": 164,
+      "n_groups": 2,
+      "named_rec": 0.5853658536585366,
+      "rnd_rec": 0.1951219512195122
+    },
+    {
+      "coverage": 0.82,
+      "surfaced": 200,
+      "covered": 164,
+      "users_with_expl": 20,
+      "n_eval": 20,
+      "n_explained_pairs": 164,
+      "n_groups": 2,
+      "named_rec": 0.5853658536585366,
+      "rnd_rec": 0.054878048780487805
+    },
+    {
+      "coverage": 0.82,
+      "surfaced": 200,
+      "covered": 164,
+      "users_with_expl": 20,
+      "n_eval": 20,
+      "n_explained_pairs": 164,
+      "n_groups": 2,
+      "named_rec": 0.5853658536585366,
+      "rnd_rec": 0.4146341463414634
+    },
+    {
+      "coverage": 0.82,
+      "surfaced": 200,
+      "covered": 164,
+      "users_with_expl": 20,
+      "n_eval": 20,
+      "n_explained_pairs": 164,
+      "n_groups": 2,
+      "named_rec": 0.5853658536585366,
+      "rnd_rec": 0.43902439024390244
+    },
+    {
+      "coverage": 0.82,
+      "surfaced": 200,
+      "covered": 164,
+      "users_with_expl": 20,
+      "n_eval": 20,
+      "n_explained_pairs": 164,
+      "n_groups": 2,
+      "named_rec": 0.5853658536585366,
+      "rnd_rec": 0.2865853658536585
+    }
+  ]
+}

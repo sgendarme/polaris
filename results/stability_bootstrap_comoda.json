@@ -1,0 +1,7 @@
+{
+  "dataset": "comoda",
+  "bootstrap_resamples": 20,
+  "positive_token_jaccard_mean": 0.16553571428571429,
+  "positive_token_jaccard_std": 0.1262157291668342,
+  "n": 40
+}

@@ -1,0 +1,330 @@
+{
+  "dataset": "ML-1M",
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "topk": 10,
+  "probe": "anchoring",
+  "coverage": {
+    "mean": 1.0,
+    "std": 0.0
+  },
+  "base_rate": {
+    "mean": 0.8329238850289643,
+    "std": 0.006566026229654259
+  },
+  "anchoring_precision": {
+    "named": {
+      "mean": 0.8329238850289643,
+      "std": 0.006566026229654259
+    },
+    "rnd": {
+      "mean": 0.743983399206982,
+      "std": 0.012655284713464741
+    }
+  },
+  "anchoring_excess": {
+    "mean": 0.08894048582198247,
+    "std": 0.011447507589642105,
+    "wilcoxon_p_2sided": 1.9073486328125e-06,
+    "wilcoxon_p_1sided": 9.5367431640625e-07,
+    "n": 20
+  },
+  "anchoring_at_k": {
+    "named": {
+      "mean": 0.7751940748198086,
+      "std": 0.010304972366889709
+    },
+    "rnd": {
+      "mean": 0.7079637912839163,
+      "std": 0.01619757791521035
+    },
+    "excess": {
+      "mean": 0.06723028353589236,
+      "std": 0.011585020353955845,
+      "wilcoxon_p_2sided": 1.9073486328125e-06,
+      "wilcoxon_p_1sided": 9.5367431640625e-07
+    }
+  },
+  "per_seed": [
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8388535031847134,
+      "surfaced": 3140,
+      "covered": 3140,
+      "n_explained_pairs": 3140,
+      "n_groups": 18,
+      "n_eval": 314,
+      "prec_named": 0.8388535031847134,
+      "prec_rnd": 0.7363057324840764,
+      "ak_named": 0.7729357798165137,
+      "ak_rnd": 0.7022935779816515
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8213166144200627,
+      "surfaced": 3190,
+      "covered": 3190,
+      "n_explained_pairs": 3190,
+      "n_groups": 18,
+      "n_eval": 319,
+      "prec_named": 0.8213166144200627,
+      "prec_rnd": 0.7206896551724138,
+      "ak_named": 0.7569536423841059,
+      "ak_rnd": 0.6816777041942605
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8326923076923077,
+      "surfaced": 3120,
+      "covered": 3120,
+      "n_explained_pairs": 3120,
+      "n_groups": 18,
+      "n_eval": 312,
+      "prec_named": 0.8326923076923077,
+      "prec_rnd": 0.7532051282051282,
+      "ak_named": 0.78,
+      "ak_rnd": 0.7221176470588235
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8282467532467532,
+      "surfaced": 3080,
+      "covered": 3080,
+      "n_explained_pairs": 3080,
+      "n_groups": 18,
+      "n_eval": 308,
+      "prec_named": 0.8282467532467532,
+      "prec_rnd": 0.7558441558441559,
+      "ak_named": 0.7748218527315915,
+      "ak_rnd": 0.7168646080760095
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8319354838709677,
+      "surfaced": 3100,
+      "covered": 3100,
+      "n_explained_pairs": 3100,
+      "n_groups": 18,
+      "n_eval": 310,
+      "prec_named": 0.8319354838709677,
+      "prec_rnd": 0.7448387096774194,
+      "ak_named": 0.7753424657534247,
+      "ak_rnd": 0.704337899543379
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8234527687296417,
+      "surfaced": 3070,
+      "covered": 3070,
+      "n_explained_pairs": 3070,
+      "n_groups": 18,
+      "n_eval": 307,
+      "prec_named": 0.8234527687296417,
+      "prec_rnd": 0.7462540716612378,
+      "ak_named": 0.7629032258064516,
+      "ak_rnd": 0.6983870967741936
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8338762214983714,
+      "surfaced": 3070,
+      "covered": 3070,
+      "n_explained_pairs": 3070,
+      "n_groups": 18,
+      "n_eval": 307,
+      "prec_named": 0.8338762214983714,
+      "prec_rnd": 0.7511400651465798,
+      "ak_named": 0.7825791855203621,
+      "ak_rnd": 0.7128959276018099
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8532679738562091,
+      "surfaced": 3060,
+      "covered": 3060,
+      "n_explained_pairs": 3060,
+      "n_groups": 18,
+      "n_eval": 306,
+      "prec_named": 0.8532679738562091,
+      "prec_rnd": 0.773202614379085,
+      "ak_named": 0.8,
+      "ak_rnd": 0.7462085308056873
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8311897106109325,
+      "surfaced": 3110,
+      "covered": 3110,
+      "n_explained_pairs": 3110,
+      "n_groups": 18,
+      "n_eval": 311,
+      "prec_named": 0.8311897106109325,
+      "prec_rnd": 0.747588424437299,
+      "ak_named": 0.7819248826291081,
+      "ak_rnd": 0.7194835680751174
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8336569579288026,
+      "surfaced": 3090,
+      "covered": 3090,
+      "n_explained_pairs": 3090,
+      "n_groups": 18,
+      "n_eval": 309,
+      "prec_named": 0.8336569579288026,
+      "prec_rnd": 0.7378640776699029,
+      "ak_named": 0.7846325167037863,
+      "ak_rnd": 0.7182628062360802
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8349514563106796,
+      "surfaced": 3090,
+      "covered": 3090,
+      "n_explained_pairs": 3090,
+      "n_groups": 18,
+      "n_eval": 309,
+      "prec_named": 0.8349514563106796,
+      "prec_rnd": 0.7530744336569579,
+      "ak_named": 0.7714942528735633,
+      "ak_rnd": 0.7213793103448276
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8341935483870968,
+      "surfaced": 3100,
+      "covered": 3100,
+      "n_explained_pairs": 3100,
+      "n_groups": 18,
+      "n_eval": 310,
+      "prec_named": 0.8341935483870968,
+      "prec_rnd": 0.7535483870967742,
+      "ak_named": 0.7817129629629631,
+      "ak_rnd": 0.7231481481481481
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8268987341772152,
+      "surfaced": 3160,
+      "covered": 3160,
+      "n_explained_pairs": 3160,
+      "n_groups": 18,
+      "n_eval": 316,
+      "prec_named": 0.8268987341772152,
+      "prec_rnd": 0.745253164556962,
+      "ak_named": 0.7523809523809524,
+      "ak_rnd": 0.6988662131519274
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8328990228013029,
+      "surfaced": 3070,
+      "covered": 3070,
+      "n_explained_pairs": 3070,
+      "n_groups": 18,
+      "n_eval": 307,
+      "prec_named": 0.8328990228013029,
+      "prec_rnd": 0.737785016286645,
+      "ak_named": 0.7716216216216216,
+      "ak_rnd": 0.6921171171171171
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8393548387096774,
+      "surfaced": 3100,
+      "covered": 3100,
+      "n_explained_pairs": 3100,
+      "n_groups": 18,
+      "n_eval": 310,
+      "prec_named": 0.8393548387096774,
+      "prec_rnd": 0.7425806451612903,
+      "ak_named": 0.7773455377574372,
+      "ak_rnd": 0.7098398169336385
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8311475409836065,
+      "surfaced": 3050,
+      "covered": 3050,
+      "n_explained_pairs": 3050,
+      "n_groups": 18,
+      "n_eval": 305,
+      "prec_named": 0.8311475409836065,
+      "prec_rnd": 0.7311475409836066,
+      "ak_named": 0.7741860465116278,
+      "ak_rnd": 0.6937209302325582
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8308441558441558,
+      "surfaced": 3080,
+      "covered": 3080,
+      "n_explained_pairs": 3080,
+      "n_groups": 18,
+      "n_eval": 308,
+      "prec_named": 0.8308441558441558,
+      "prec_rnd": 0.759090909090909,
+      "ak_named": 0.7736720554272517,
+      "ak_rnd": 0.7221709006928406
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8366883116883117,
+      "surfaced": 3080,
+      "covered": 3080,
+      "n_explained_pairs": 3080,
+      "n_groups": 18,
+      "n_eval": 308,
+      "prec_named": 0.8366883116883117,
+      "prec_rnd": 0.7253246753246754,
+      "ak_named": 0.770952380952381,
+      "ak_rnd": 0.685952380952381
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8336569579288026,
+      "surfaced": 3090,
+      "covered": 3090,
+      "n_explained_pairs": 3090,
+      "n_groups": 18,
+      "n_eval": 309,
+      "prec_named": 0.8336569579288026,
+      "prec_rnd": 0.7284789644012944,
+      "ak_named": 0.784390243902439,
+      "ak_rnd": 0.7039024390243903
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8293548387096774,
+      "surfaced": 3100,
+      "covered": 3100,
+      "n_explained_pairs": 3100,
+      "n_groups": 18,
+      "n_eval": 310,
+      "prec_named": 0.8293548387096774,
+      "prec_rnd": 0.7364516129032258,
+      "ak_named": 0.7740318906605923,
+      "ak_rnd": 0.6856492027334852
+    }
+  ]
+}

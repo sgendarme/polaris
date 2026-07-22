@@ -1,0 +1,330 @@
+{
+  "dataset": "ML-100K",
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "topk": 10,
+  "probe": "anchoring",
+  "coverage": {
+    "mean": 1.0,
+    "std": 0.0
+  },
+  "base_rate": {
+    "mean": 0.8040350358463295,
+    "std": 0.015587241689331063
+  },
+  "anchoring_precision": {
+    "named": {
+      "mean": 0.8040350358463295,
+      "std": 0.015587241689331063
+    },
+    "rnd": {
+      "mean": 0.69825822275072,
+      "std": 0.029741263752033488
+    }
+  },
+  "anchoring_excess": {
+    "mean": 0.10577681309560938,
+    "std": 0.028261817687088735,
+    "wilcoxon_p_2sided": 1.9073486328125e-06,
+    "wilcoxon_p_1sided": 9.5367431640625e-07,
+    "n": 20
+  },
+  "anchoring_at_k": {
+    "named": {
+      "mean": 0.7735315584154898,
+      "std": 0.01798687268405177
+    },
+    "rnd": {
+      "mean": 0.6961287953910718,
+      "std": 0.030427070523602797
+    },
+    "excess": {
+      "mean": 0.0774027630244178,
+      "std": 0.025192341008413277,
+      "wilcoxon_p_2sided": 1.9073486328125e-06,
+      "wilcoxon_p_1sided": 9.5367431640625e-07
+    }
+  },
+  "per_seed": [
+    {
+      "coverage": 1.0,
+      "base_rate": 0.819672131147541,
+      "surfaced": 610,
+      "covered": 610,
+      "n_explained_pairs": 610,
+      "n_groups": 8,
+      "n_eval": 61,
+      "prec_named": 0.819672131147541,
+      "prec_rnd": 0.7540983606557377,
+      "ak_named": 0.7915492957746478,
+      "ak_rnd": 0.756338028169014
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.803125,
+      "surfaced": 640,
+      "covered": 640,
+      "n_explained_pairs": 640,
+      "n_groups": 7,
+      "n_eval": 64,
+      "prec_named": 0.803125,
+      "prec_rnd": 0.6484375,
+      "ak_named": 0.7919999999999999,
+      "ak_rnd": 0.6706666666666667
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.79375,
+      "surfaced": 640,
+      "covered": 640,
+      "n_explained_pairs": 640,
+      "n_groups": 8,
+      "n_eval": 64,
+      "prec_named": 0.79375,
+      "prec_rnd": 0.696875,
+      "ak_named": 0.7467532467532467,
+      "ak_rnd": 0.690909090909091
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.7825396825396825,
+      "surfaced": 630,
+      "covered": 630,
+      "n_explained_pairs": 630,
+      "n_groups": 8,
+      "n_eval": 63,
+      "prec_named": 0.7825396825396825,
+      "prec_rnd": 0.7206349206349206,
+      "ak_named": 0.7676056338028169,
+      "ak_rnd": 0.7253521126760564
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.7721311475409836,
+      "surfaced": 610,
+      "covered": 610,
+      "n_explained_pairs": 610,
+      "n_groups": 8,
+      "n_eval": 61,
+      "prec_named": 0.7721311475409836,
+      "prec_rnd": 0.6737704918032786,
+      "ak_named": 0.7666666666666666,
+      "ak_rnd": 0.6768115942028985
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.803125,
+      "surfaced": 640,
+      "covered": 640,
+      "n_explained_pairs": 640,
+      "n_groups": 8,
+      "n_eval": 64,
+      "prec_named": 0.803125,
+      "prec_rnd": 0.71875,
+      "ak_named": 0.7842857142857141,
+      "ak_rnd": 0.7200000000000001
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8063492063492064,
+      "surfaced": 630,
+      "covered": 630,
+      "n_explained_pairs": 630,
+      "n_groups": 8,
+      "n_eval": 63,
+      "prec_named": 0.8063492063492064,
+      "prec_rnd": 0.6587301587301587,
+      "ak_named": 0.7625000000000001,
+      "ak_rnd": 0.6444444444444444
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.7888888888888889,
+      "surfaced": 630,
+      "covered": 630,
+      "n_explained_pairs": 630,
+      "n_groups": 8,
+      "n_eval": 63,
+      "prec_named": 0.7888888888888889,
+      "prec_rnd": 0.7,
+      "ak_named": 0.7445945945945948,
+      "ak_rnd": 0.6905405405405407
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8065573770491803,
+      "surfaced": 610,
+      "covered": 610,
+      "n_explained_pairs": 610,
+      "n_groups": 8,
+      "n_eval": 61,
+      "prec_named": 0.8065573770491803,
+      "prec_rnd": 0.6885245901639344,
+      "ak_named": 0.7602739726027399,
+      "ak_rnd": 0.6753424657534247
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.7952380952380952,
+      "surfaced": 630,
+      "covered": 630,
+      "n_explained_pairs": 630,
+      "n_groups": 8,
+      "n_eval": 63,
+      "prec_named": 0.7952380952380952,
+      "prec_rnd": 0.7015873015873015,
+      "ak_named": 0.772463768115942,
+      "ak_rnd": 0.7101449275362319
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8111111111111111,
+      "surfaced": 630,
+      "covered": 630,
+      "n_explained_pairs": 630,
+      "n_groups": 8,
+      "n_eval": 63,
+      "prec_named": 0.8111111111111111,
+      "prec_rnd": 0.6666666666666666,
+      "ak_named": 0.7608108108108109,
+      "ak_rnd": 0.6635135135135135
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8387096774193549,
+      "surfaced": 620,
+      "covered": 620,
+      "n_explained_pairs": 620,
+      "n_groups": 8,
+      "n_eval": 62,
+      "prec_named": 0.8387096774193549,
+      "prec_rnd": 0.7403225806451613,
+      "ak_named": 0.7923076923076924,
+      "ak_rnd": 0.7435897435897434
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.815625,
+      "surfaced": 640,
+      "covered": 640,
+      "n_explained_pairs": 640,
+      "n_groups": 8,
+      "n_eval": 64,
+      "prec_named": 0.815625,
+      "prec_rnd": 0.6671875,
+      "ak_named": 0.7756756756756757,
+      "ak_rnd": 0.6554054054054054
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.7951612903225806,
+      "surfaced": 620,
+      "covered": 620,
+      "n_explained_pairs": 620,
+      "n_groups": 8,
+      "n_eval": 62,
+      "prec_named": 0.7951612903225806,
+      "prec_rnd": 0.7096774193548387,
+      "ak_named": 0.7925373134328358,
+      "ak_rnd": 0.7164179104477612
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8238095238095238,
+      "surfaced": 630,
+      "covered": 630,
+      "n_explained_pairs": 630,
+      "n_groups": 8,
+      "n_eval": 63,
+      "prec_named": 0.8238095238095238,
+      "prec_rnd": 0.7126984126984127,
+      "ak_named": 0.7986842105263158,
+      "ak_rnd": 0.7000000000000001
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8153846153846154,
+      "surfaced": 650,
+      "covered": 650,
+      "n_explained_pairs": 650,
+      "n_groups": 8,
+      "n_eval": 65,
+      "prec_named": 0.8153846153846154,
+      "prec_rnd": 0.7307692307692307,
+      "ak_named": 0.8,
+      "ak_rnd": 0.7306666666666666
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.7870967741935484,
+      "surfaced": 620,
+      "covered": 620,
+      "n_explained_pairs": 620,
+      "n_groups": 8,
+      "n_eval": 62,
+      "prec_named": 0.7870967741935484,
+      "prec_rnd": 0.6548387096774193,
+      "ak_named": 0.7438356164383563,
+      "ak_rnd": 0.6575342465753424
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.8161290322580645,
+      "surfaced": 620,
+      "covered": 620,
+      "n_explained_pairs": 620,
+      "n_groups": 8,
+      "n_eval": 62,
+      "prec_named": 0.8161290322580645,
+      "prec_rnd": 0.7080645161290322,
+      "ak_named": 0.7753623188405797,
+      "ak_rnd": 0.7028985507246377
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.7983606557377049,
+      "surfaced": 610,
+      "covered": 610,
+      "n_explained_pairs": 610,
+      "n_groups": 8,
+      "n_eval": 61,
+      "prec_named": 0.7983606557377049,
+      "prec_rnd": 0.7262295081967213,
+      "ak_named": 0.7586666666666666,
+      "ak_rnd": 0.6920000000000001
+    },
+    {
+      "coverage": 1.0,
+      "base_rate": 0.807936507936508,
+      "surfaced": 630,
+      "covered": 630,
+      "n_explained_pairs": 630,
+      "n_groups": 8,
+      "n_eval": 63,
+      "prec_named": 0.807936507936508,
+      "prec_rnd": 0.6873015873015873,
+      "ak_named": 0.7840579710144928,
+      "ak_rnd": 0.7000000000000001
+    }
+  ]
+}

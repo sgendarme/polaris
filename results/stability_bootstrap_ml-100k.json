@@ -1,0 +1,7 @@
+{
+  "dataset": "ml-100k",
+  "bootstrap_resamples": 20,
+  "positive_token_jaccard_mean": 0.3356894841269841,
+  "positive_token_jaccard_std": 0.3195745251993034,
+  "n": 160
+}

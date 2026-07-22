@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.venv-lightfm/
+outputs/
+resources/ml-100k/*
+resources/ml-1m/*
+resources/CoMoDa/*
+!resources/*/.gitkeep
+*.egg-info/
+.pytest_cache/
+__MACOSX/

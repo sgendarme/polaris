@@ -1,0 +1,116 @@
+{
+  "ml-100k": {
+    "dataset": "ML-100K",
+    "n_distinct_lfi_items_per_seed": [
+      22.85,
+      2.0332758116683993
+    ],
+    "n_distinct_lfi_items_pooled": 42,
+    "mean_pop_percentile_distinct": [
+      0.9745583795042168,
+      0.002835596482687775
+    ],
+    "mean_pop_percentile_weighted": [
+      0.98319804963444,
+      0.0026443296766249674
+    ],
+    "frac_in_top1pct": [
+      0.313544288091771,
+      0.04194690726638087
+    ],
+    "frac_in_top5pct": [
+      0.8423579601176854,
+      0.05107858957681436
+    ],
+    "frac_in_top10pct": [
+      0.9938333333333332,
+      0.015187474660444459
+    ],
+    "spearman_lfifreq_pop_perseed": [
+      0.5915351631898058,
+      0.07788129476055741
+    ],
+    "spearman_pooled": {
+      "rho": 0.5250606242518223,
+      "p": 0.00035687839914808517,
+      "n_items": 42
+    },
+    "pooled_mean_pop_percentile": 0.9666551485832757
+  },
+  "ml-1m": {
+    "dataset": "ML-1M",
+    "n_distinct_lfi_items_per_seed": [
+      10.15,
+      0.36634754853252327
+    ],
+    "n_distinct_lfi_items_pooled": 11,
+    "mean_pop_percentile_distinct": [
+      0.9982814804945059,
+      0.00017553606883618478
+    ],
+    "mean_pop_percentile_weighted": [
+      0.9988223362718991,
+      4.577899334157434e-05
+    ],
+    "frac_in_top1pct": [
+      1.0,
+      0.0
+    ],
+    "frac_in_top5pct": [
+      1.0,
+      0.0
+    ],
+    "frac_in_top10pct": [
+      1.0,
+      0.0
+    ],
+    "spearman_lfifreq_pop_perseed": [
+      0.4948844419876899,
+      0.0915643875536845
+    ],
+    "spearman_pooled": {
+      "rho": 0.6575411015672014,
+      "p": 0.02789177910815643,
+      "n_items": 11
+    },
+    "pooled_mean_pop_percentile": 0.9980058152998996
+  },
+  "comoda": {
+    "dataset": "LDOS",
+    "n_distinct_lfi_items_per_seed": [
+      1.9,
+      0.3077935056255462
+    ],
+    "n_distinct_lfi_items_pooled": 2,
+    "mean_pop_percentile_distinct": [
+      0.9950667400320412,
+      0.0016961311556365362
+    ],
+    "mean_pop_percentile_weighted": [
+      0.9967111600213612,
+      0.0011307541037576562
+    ],
+    "frac_in_top1pct": [
+      0.575,
+      0.18317377426626164
+    ],
+    "frac_in_top5pct": [
+      1.0,
+      0.0
+    ],
+    "frac_in_top10pct": [
+      1.0,
+      0.0
+    ],
+    "spearman_lfifreq_pop_perseed": [
+      NaN,
+      0.0
+    ],
+    "spearman_pooled": {
+      "rho": NaN,
+      "p": NaN,
+      "n_items": 2
+    },
+    "pooled_mean_pop_percentile": 0.9927293064876958
+  }
+}

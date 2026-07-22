@@ -1,0 +1,8 @@
+numpy==2.5.0
+pandas==3.0.3
+scikit-learn==1.9.0
+scipy==1.18.0
+torch==2.12.1
+lightgbm==4.6.0
+pytest==9.1.1
+# LightFM 1.17 runs in the isolated Python 3.11 env (scripts/setup_lightfm_env.sh)
